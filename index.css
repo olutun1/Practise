@@ -1,0 +1,97 @@
+/* Comment*/
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}     
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.practice-box{
+    margin: 20px;
+    border: 1px solid gray;
+    width: 500px;
+    height: 230px;
+
+}
+
+/*Practice1*/
+
+.practice1{
+    position: relative;
+}
+
+.practice1 .green{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.practice1 .blue{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.practice1 .red{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.practice1 .yellow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*Practice2*/
+
+.practice2{
+    position: relative;
+}
+
+.practice2 .green{
+    position: absolute;
+    width: 70%;
+    top: 60px;
+    left: 15%;
+}
+
+/*Practice3*/
+
+.practice3{
+    position: relative;
+}
+
+.practice3 .green{
+    position: absolute;
+    width: 60%;
+    height: 130px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.practice3 .yellow{
+    position: absolute;
+    width: 60%;
+    height: 90px;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent {
+    height: 100vh;
+    border: 10px solid black;
+    display: flex;
+
+}
+.child1{
+    width: 200px;
+    height: 200px;
+    background: rgb(85, 176, 204);
+    align-self: flex-start;   
+
+}
+.child2{
+    width: 200px;
+    height: 200px;
+    background: rgb(0,49,184);
+    align-self: center;
+  
+}
+.child3{
+    width: 200px;
+    height: 200px;
+    background: rgb(105, 102, 102);
+    align-self: flex-end;
+
+}
+.child4{
+    width: 200px;
+    height: 200px;
+    background: rgb(241, 100, 100);
+
+}
+
+h1 {
+    font-family: fantasy;
+    word-spacing: 34px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+p {
+    font-weight: normal;
+}  
+#para2 {
+    font-style: italic; 
+    font-size: 3vw;   
+}
+* {  font-family: 'Tangerine', cursive;
+     font-weight: bold;
+     font-size: 3vw;
+}

@@ -1,0 +1,73 @@
+* {
+  text-align: center;
+}
+
+p{
+  font-weight: normal;
+  color: blue;
+  font-size: 50px;
+  font-family: monospace;
+  border: 3px solid green;
+  border-radius: 50px;
+  padding: 100px;
+  padding: 6px 11px 4px 90px;
+  margin: 200px;
+  margin: 6px 11px 4px 90px;
+  overflow: scroll;
+  height: 80px;
+  width: 240px;
+  background-color: #ff6347;
+}
+
+#para2 {
+  font-family: fantasy;
+  font-style: italic;
+  font-size: 40v;
+}
+.count h2{
+    font-family: monospace;
+}
+
+h1,h2 {
+    font-weight: bold;
+    color: greenyellow;
+    font-size: 50px;
+    text-align: center;
+    font-family: fantasy;
+    background-color: hsla(9, 100%, 64%, 0.5);
+    border: 2px solid white;
+
+}
+
+a:hover {
+  color: dark red;
+  text-align: center;
+}
+
+p.example {
+  color: palevioletred;
+  font-size: 250;
+  text-align: center;
+  background-color: rgba(9, 100%, 64%);
+  background-color: hsla(9, 100%, 64%, 0.5);
+  font-weight: normal;
+  font-family: serif;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 99, 71);
+  border: 2px solid white;
+}
+
+.overlay {
+  opacity: 0.5;
+}
+
+body {
+  background-image: url("https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg");
+  background-repeat: no-repeat;
+}
