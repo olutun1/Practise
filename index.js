@@ -12,7 +12,7 @@ document.getElementById("resetBtn").onclick = function(){
 document.getElementById("increaseBtn").onclick = function(){
     count +=1;
     document.getElementById("countLabel").innerHTML= count;
-}
+}i
 
 window.onscroll = function() {myFunction()};;
 function myFuction(){
